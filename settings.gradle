@@ -1,0 +1,5 @@
+rootProject.name = 'visa'
+
+
+include ':kernel-common'
+project(':kernel-common').projectDir=new File("$settingsDir/../kernel-common")
